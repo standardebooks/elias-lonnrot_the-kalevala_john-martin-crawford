@@ -32,7 +32,7 @@
 		<dc:subject id="subject-1">Finnish poetry -- Translations into English</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
@@ -48,28 +48,32 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/elias-lonnrot_the-kalevala_john-martin-crawford</meta>
 		<dc:creator id="author">Elias Lönnrot</dc:creator>
 		<meta property="file-as" refines="#author">Lönnrot, Elias</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Elias_L%C3%B6nnrot</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81027967</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">John Martin Crawford</dc:contributor>
 		<meta property="file-as" refines="#translator">Crawford, John Martin</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/John_Martin_Crawford</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/John_Martin_Crawford_(scholar)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n82133782</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Akseli Gallen-Kallela</dc:contributor>
 		<meta property="file-as" refines="#artist">Gallen-Kallela, Akseli</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Akseli_Gallen-Kallela</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79127990</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">John B. Hare</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Hare, John B.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Carrie R. Lorenz</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Lorenz, Carrie R.</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
