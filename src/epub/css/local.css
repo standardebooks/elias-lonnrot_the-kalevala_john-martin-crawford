@@ -61,10 +61,6 @@ section[epub|type~="dedication"] > *{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
 [epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
@@ -75,4 +71,9 @@ section[epub|type~="dedication"] > *{
 [epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
+}
+
+/* Follow source indent style for verse paragraphs */
+[epub|type~="z3998:poem"] p + p > span:first-child{
+	text-indent: 0;
 }
