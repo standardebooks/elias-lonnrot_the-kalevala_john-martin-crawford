@@ -3,7 +3,6 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
 body [xml|lang],
-dfn,
 q{
 	font-style: italic;
 }
@@ -11,10 +10,6 @@ q{
 footer{
 	margin-top: 1em;
 	text-align: right;
-}
-
-dd + dt{
-	margin-top: 1em;
 }
 
 [epub|type~="se:temperature"]{
@@ -27,8 +22,8 @@ dd + dt{
 
 /* All dedications */
 section[epub|type~="dedication"]{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 section[epub|type~="dedication"] > *{
