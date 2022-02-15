@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/elias-lonnrot/the-kalevala/john-martin-crawford</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-02-15T18:41:59Z</dc:date>
+		<meta property="dcterms:modified">2022-02-15T18:41:59Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -32,9 +32,9 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">The Kalevala is the Finnish national epic poem recounting the creation of the earth and the adventures of its mythical heroes.</dc:description>
+		<dc:description id="description">The Finnish national epic poem recounting the creation of the Earth and the adventures of its mythical heroes.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The &lt;i&gt;Kalevala&lt;/i&gt; is a Finnish epic poem, which tells of the creation of the world and how the heroes that inhabit it came to be, and the legends of their conflicts and adventures. Spread out over fifty verses, we hear how existence was created from the egg of a duck, how the forests were created from the chips of a world-tree felled by an ancient wizard, how the mighty Sampo—a multicoloured mill of plenty—was created and later stolen, how the nine dread diseases came to be, and many more such stories.&lt;/p&gt;
+			&lt;p&gt;The &lt;i&gt;Kalevala&lt;/i&gt; is a Finnish epic poem, which tells of the creation of the world and how the heroes that inhabit it came to be, and the legends of their conflicts and adventures. Spread out over fifty cantos, we hear how existence was created from the egg of a duck, how the forests were created from the chips of a world-tree felled by an ancient wizard, how the mighty Sampo—a multicolored mill of plenty—was created and later stolen, how the nine dread diseases came to be, and many more such stories.&lt;/p&gt;
 			&lt;p&gt;The tales contained here are formed from Finland’s oral history. The author, &lt;a href="https://standardebooks.org/ebooks/elias-lonnrot"&gt;Elias Lönnrot&lt;/a&gt;, was a Finnish doctor who was fascinated with his country’s stories, so between the 1820s and 1850s he embarked on a series of expeditions to the countryside of Finland and the surrounding area to collect and transcribe the folk stories told by local people. These tales were gradually collected into several volumes, the final of which is this “new” &lt;i&gt;Kalevala&lt;/i&gt;. Lönnrot collected many different variants of each story, then edited each down into a cohesive whole when composing the new verse. The distinctive Kalevala-meter that was a common feature of all the original oral stories was kept during the process, and Crawford used the same with this English translation.&lt;/p&gt;
 			&lt;p&gt;Lönnrot’s work proved extremely influential in Finland, and the national pride it imbued has been cited as a factor in the later Finnish independence movement. The &lt;i&gt;Kalevala&lt;/i&gt; was also a source of inspiration for later authors of the twentieth century. Tolkien reused some of the themes and characters for the basis of his fictional universe (in particular &lt;i&gt;The Silmarillion&lt;/i&gt;), the Kalevala-meter was used in Longfellow’s &lt;i&gt;The Song of Hiawatha&lt;/i&gt;, and even Donald Duck has quested—as the Kalevala heroes did—for the legendary Sampo.&lt;/p&gt;
 			&lt;p&gt;This edition was translated by John Martin Crawford in the late nineteenth century, and includes his introduction discussing some of the themes, characters, and settings.&lt;/p&gt;
@@ -44,8 +44,8 @@
 		<dc:source>https://archive.org/details/kalevalaepicpoem01craw</dc:source>
 		<dc:source>https://archive.org/details/kalevalaepicpoem02craw</dc:source>
 		<meta property="se:production-notes">Glossary dropped from production due to the lack of phonetic alphabet in the transcription.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">137048</meta>
+		<meta property="se:reading-ease.flesch">49.62</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kalevala</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/elias-lonnrot_the-kalevala_john-martin-crawford</meta>
 		<dc:creator id="author">Elias Lönnrot</dc:creator>
@@ -83,6 +83,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://weijiarhymeswith.asia</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
