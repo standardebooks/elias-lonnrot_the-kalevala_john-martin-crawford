@@ -67,6 +67,10 @@ section[epub|type~="dedication"] > *{
 	display: none;
 }
 
+[epub|type~="z3998:poem"] hgroup p{
+	text-align: center;
+}
+
 /* Follow source indent style for verse paragraphs */
 [epub|type~="z3998:poem"] p + p > span:first-child{
 	padding-left: 2em;
